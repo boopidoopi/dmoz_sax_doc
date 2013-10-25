@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'dmoz_sax/version'
+require File.dirname(__FILE__) + '/lib/dmoz_sax/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "dmoz_sax_doc"
